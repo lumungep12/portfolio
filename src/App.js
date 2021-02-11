@@ -6,6 +6,7 @@ import Landing from './Components/Landing/Landing';
 import Navbar from './Components/Navbar/Navbar';
 import Clients from './Components/Work/Clients';
 import Work from './Components/Work/Work';
+import './index.css'
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
       <Work/>
       <Clients/>
       <About/>
-      <Blog/>
+      {/* <Blog/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }

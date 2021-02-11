@@ -3,27 +3,27 @@ import React, { Component } from 'react'
 export default class Navbar extends Component {
     render() {
         return (
-            <div>
+            <>
                 <header>
                     <div className="logo">
-                        lumunge
+                      <a href="/home"> lumunge </a> 
                     </div>
                     <ul className="menu">
-                        <li>
+                        <li className="nav-link">
                             <a href="#!">Work</a>
                         </li>
-                        <li>
+                        <li className="nav-link">
                             <a href="#!">About</a>
                         </li>
-                        <li>
+                        <li className="nav-link">
                             <a href="#!">Blog</a>
                         </li>
-                        <li>
+                        <li className="nav-link">
                             <a href="#!">Contact</a>
                         </li>
                     </ul>
                 </header>
-            </div>
+            </>
         )
     }
 }
