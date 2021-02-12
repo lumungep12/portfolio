@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Anime from 'animejs';
 import lumunge from './img/undraw_Code_review_re_woeb.svg'
 
 export default class Landing extends Component {
