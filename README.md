@@ -1,1 +1,0 @@
-Import multiple images to a file in react js
