@@ -1,24 +1,23 @@
-import About from './Components/About/About';
-import Blog from './Components/Blog/Blog';
-import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
 import Landing from './Components/Landing/Landing';
-import Navbar from './Components/Navbar/Navbar';
-import Clients from './Components/Work/Clients';
+import About from './Components/About/About';
 import Work from './Components/Work/Work';
+import Pricing from './Components/Pricing/Pricing';
+import Form from './Components/Contact/Form';
+import Footer from './Components/Footer/Footer';
+
 import './index.css'
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Header />
       <Landing/>
+      <About />
       <Work/>
-      <Clients/>
-      <About/>
-       <Blog/>
-      <Contact/>
-      {/*<Footer/> */}
+      <Pricing />
+      <Form />
+      <Footer />
     </div>
   );
 }
